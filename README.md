@@ -1,37 +1,91 @@
-## Welcome to GitHub Pages
+## Welcome to Pandaren
 
-You can use the [editor on GitHub](https://github.com/GuaJing/LearnNotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+:sparkles这是一篇markdown语言教程:sparkles
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+标题
+# 这是一个 <h1> 标签
+## 这是一个 <h2> 标签
+###### 这是一个 <h6> 标签
+  
+强调
+*这句话将会倾斜*
+_这句话也会倾斜_
 
-### Markdown
+**这句话将会加粗**
+__这句话也会加粗__
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+_你 **可以** 将它们联合起来使用_
 
-```markdown
-Syntax highlighted code block
+列表
+无序
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+有序
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
 
-# Header 1
-## Header 2
-### Header 3
+图片
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
-- Bulleted
-- List
+超链接
+http://github.com - automatic!
+[GitHub](http://github.com)
 
-1. Numbered
-2. List
+块引用
+正如 Kanye West 所说：
 
-**Bold** and _Italic_ and `Code` text
+> We're living the future so
+> the present is our past.
 
-[Link](url) and ![Image](src)
+内联代码
+我觉你应该使用一个
+`<addr>` 元素代替。
+
+语法高亮
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+任务列表(Task Lists)
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
-### Jekyll Themes
+表格(Tables)
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GuaJing/LearnNotes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+SHA引用
+16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 
-### Support or Contact
+在仓库中的Issue引用
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+用户名 @mentions
+键入 @ 符号，后面跟一个用户名，将通知该用户来查看评论。这被称之为“@memtion”（@提及），因为你提到了这个人。你也可以 @memtion 组织内部的一个小组。
+
+自动链接网址
+任何网址（如 http://www.github.com）都会自动转换为可点击的链接。
+
+删除线
+使用任务两个波浪符号包裹的单词（如~~this~~）会出现删除线
+
+Emoji
+参考该链接https://www.webfx.com/tools/emoji-cheat-sheet/
