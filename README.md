@@ -35,8 +35,7 @@ _你 **可以** 将它们联合起来使用_
 
 :sparkles:图片:sparkles:
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Yaktocat 的图片](https://octodex.github.com/images/yaktocat.png)
 
 :sparkles:超链接:sparkles:
 
