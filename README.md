@@ -1,111 +1,21 @@
-## Welcome to Pandaren
+README 文档通常遵循一种格式，以便使开发人员可以立即定位到项目中最重要的部分。
 
-:sparkles:这是一篇markdown语言教程:sparkles:
+项目名称：你的项目名称是人们在滚动 README 文档时将看到的第一个内容，并且在创建 README 文档时已经包含在内。
 
-:sparkles:标题:sparkles:
+描述：项目的描述在下面。一个好的描述需要是清晰的，简短的和一针见血的。描述你的项目的重点，以及它的作用。
 
-# 这是一个 <h1> 标签
-## 这是一个 <h2> 标签
-###### 这是一个 <h6> 标签
-  
-:sparkles:强调:sparkles:
+目录：（可选的 ->）包含一个目录可以让人们在一篇详细的 README 文档中快速导航。
 
-*这句话将会倾斜*
-_这句话也会倾斜_
+安装：有效的 README 文档的下一个部分是安装。它用于告诉其他用户如何在本地安装你的项目。（可选的 ->）包含一个 gif 动图以便别人可以更清楚该过程。
 
-**这句话将会加粗**
-__这句话也会加粗__
+用法：再下一个部分是用法，它用于指导其他用户在安装后将如何使用该项目。在这里，最好包括该项目启动后的屏幕截图。
 
-_你 **可以** 将它们联合起来使用_
+贡献：对于较大的项目来说，通常会有部分章节是概述如何参与项目的说明。有时，这是一个单独的文件。如果你有具体的偏好需求，请解释它们以便其他开发人员指导如何才能最好的参与到你的项目中来。要详细了解如何帮助他人参与项目，请查看这篇指南（设置仓库参与者的指针）-> 传送门。
 
-:sparkles:列表:sparkles:
+名单：包括一个名单的部分，以突出显示和链接到你的项目的作者。
 
-:sparkles:无序:sparkles:
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-  
-:sparkles:有序:sparkles:
-1. Item 1
-2. Item 2
-3. Item 3
-   * Item 3a
-   * Item 3b
+License: Finally, include a section for the license of your project. For more information on choosing a license, check out GitHub’s licensing guide!
 
-:sparkles:图片:sparkles:
+许可证：最后，将许可证也一并包含到你的项目中。有关选择许可证的更多信息，请查看 GitHub 的许可指南 -> 传送门
 
-![Yaktocat 的图片](https://octodex.github.com/images/yaktocat.png)
-
-:sparkles:超链接:sparkles:
-
-http://github.com - automatic!
-[GitHub](http://github.com)
-
-:sparkles:块引用:sparkles:
-
-正如 Kanye West 所说：
-
-> We're living the future so
-> the present is our past.
-
-:sparkles:内联代码:sparkles:
-
-我觉你应该使用一个
-`<addr>` 元素代替。
-
-:sparkles:语法高亮:sparkles:
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-
-:sparkles:任务列表(Task Lists):sparkles:
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-
-:sparkles:表格(Tables):sparkles:
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-:sparkles:SHA引用:sparkles:
-
-16c999e8c71134401a78d4d46435517b2271d6ac
-
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
-
-:sparkles:在仓库中的Issue引用:sparkles:
-
-#1
-
-mojombo#1
-
-mojombo/github-flavored-markdown#1
-
-:sparkles:用户名 @mentions:sparkles:
-
-键入 @ 符号，后面跟一个用户名，将通知该用户来查看评论。这被称之为“@memtion”（@提及），因为你提到了这个人。你也可以 @memtion 组织内部的一个小组。
-
-:sparkles:自动链接网址:sparkles:
-
-任何网址（如 http://www.github.com）都会自动转换为可点击的链接。
-
-:sparkles:删除线:sparkles:
-
-使用任务两个波浪符号包裹的单词（如~~this~~）会出现删除线
-
-:sparkles:Emoji:sparkles:
-
-参考该链接https://www.webfx.com/tools/emoji-cheat-sheet/
+你的 README 文档应该仅包含开发人员开始使用和参与你的项目所需的信息。然而较长的文档比较适合放在 wikis，如下所述。
