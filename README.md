@@ -1,6 +1,6 @@
 ## Welcome to Pandaren
 
-:sparkles这是一篇markdown语言教程:sparkles
+:sparkles:这是一篇markdown语言教程:sparkles:
 
 标题
 # 这是一个 <h1> 标签
